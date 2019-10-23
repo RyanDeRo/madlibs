@@ -1,0 +1,15 @@
+name, home, companion, objective1 = input("Hello! Suggest some words to get our story started. Enter a Name, location, Name, and item separated by spaces.").split()
+print("Our hero(ine) is ", name)
+print(name + " Lives in", home)
+print("With who does " + name + " spend their time?", companion)
+print("What are they always looking for?", objective1)
+
+
+print("Once upon a time " + name + " was far from " + home + " and they were missing " + companion + " and their favorite thing, " + objective1)
+
+transport = input('Enter a method of transportation')
+date = input('Enter a date location')
+
+print(name + " missed " + companion + " so much that he took a " + transport + " to " + home)
+print("Together, " + name + ' ' + companion + " took the " + transport + " to a " + date)
+
